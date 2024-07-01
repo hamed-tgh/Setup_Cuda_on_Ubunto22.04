@@ -9,7 +9,9 @@ https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Linux&target
 ## 2) To install GPU driver related to cuda 12.1 You have to install nvidia driver V.530 by using bellow command
 suda apt install nvidia-driver-530
 
-## 3) Rebbot
+## 3) Reboot
+Reboot your machine by using
+sudo reboot
 
 ## 4) install Cuda 12.1 which is downloaded in step 1
 ### 4-1) *during install uncheck installing the Nvidia-530-driver*
