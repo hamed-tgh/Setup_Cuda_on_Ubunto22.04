@@ -19,8 +19,8 @@ sudo sh "name of Cuda being Downloaded.run"
 
 
 ## 5) Fix Problems
-sudo apt --fix-broken install
-sudo apt autoremove
+1) sudo apt --fix-broken install
+2) sudo apt autoremove
 
 ## 6) Reboot
 
