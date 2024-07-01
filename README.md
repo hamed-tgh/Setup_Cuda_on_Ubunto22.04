@@ -25,8 +25,8 @@ sudo sh "name of Cuda being Downloaded.run"
 ## 6) Reboot
 
 ## 7) Add cuda to Path
-nano ~./bashrc
-./ ~/.bashrc
+7-1) nano ~/.bashrc
+7-2) . ~/.bashrc
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64\
