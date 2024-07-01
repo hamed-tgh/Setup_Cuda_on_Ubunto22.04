@@ -15,7 +15,7 @@ sudo reboot
 
 ## 4) install Cuda 12.1 which is downloaded in step 1
 ### 4-1) *during install uncheck installing the Nvidia-530-driver*
-sudo sh <name of Cuda being Downloaded.run>
+sudo sh "name of Cuda being Downloaded.run"
 
 
 ## 5) Fix Problems
