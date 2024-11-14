@@ -19,7 +19,7 @@ Reboot your machine by using
 sudo reboot
 
 ## 4) install Cuda 12.1 which is downloaded in step 1
-### 4-1) *during install uncheck installing the Nvidia-530-driver*
+### 4-1) *during instalation, uncheck installing the Nvidia-530-driver*
 sudo sh "name of Cuda being Downloaded.run"
 
 
@@ -41,3 +41,4 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64\
 ## 8) Test
 nvcc -v
 
+## 9) Finished :)
