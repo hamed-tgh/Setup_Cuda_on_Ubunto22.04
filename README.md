@@ -31,7 +31,7 @@ sudo sh "name of Cuda being Downloaded.run"
 sudo reboot
 
 ## 7) Add cuda to Path
-7-1) nano ~/.bashrc
+1) nano ~/.bashrc
 
 add the export script to the end of file 
 
@@ -39,7 +39,7 @@ add the export script to the end of file
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-12.1/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-7-2) . ~/.bashrc
+2) . ~/.bashrc
 
 ## 8) Test
 nvcc -v
